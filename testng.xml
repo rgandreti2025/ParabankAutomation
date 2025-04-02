@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParabankAutomation">
+    <test name="testValidLogin">
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.LogoutTest"/>
+        </classes>
+    </test>
+    <test name="FindTransactionsTest">
+        <classes>
+            <class name="testcases.FindTransactionsTest"/>
+        </classes>
+    </test>
+</suite>

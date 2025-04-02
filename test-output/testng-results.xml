@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-02T19:39:44 IST" name="ParabankAutomation" finished-at="2025-04-02T19:40:04 IST" duration-ms="20194">
+    <groups>
+    </groups>
+    <test started-at="2025-04-02T19:39:44 IST" name="testValidLogin" finished-at="2025-04-02T19:39:58 IST" duration-ms="13958">
+      <class name="testcases.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogoutTest@3336e6b6]" started-at="2025-04-02T19:39:52 IST" name="setUp" finished-at="2025-04-02T19:39:56 IST" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:testcases.LogoutTest@3336e6b6]" started-at="2025-04-02T19:39:56 IST" name="testLogout" finished-at="2025-04-02T19:39:58 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@3336e6b6]" started-at="2025-04-02T19:39:58 IST" name="tearDown" finished-at="2025-04-02T19:39:58 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LogoutTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@1890516e]" started-at="2025-04-02T19:39:44 IST" name="setUp" finished-at="2025-04-02T19:39:49 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:testcases.LoginTest@1890516e]" started-at="2025-04-02T19:39:49 IST" name="testInvalidLogin" finished-at="2025-04-02T19:39:50 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testValidLogin()[pri:0, instance:testcases.LoginTest@1890516e]" started-at="2025-04-02T19:39:50 IST" name="testValidLogin" finished-at="2025-04-02T19:39:52 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@1890516e]" started-at="2025-04-02T19:39:52 IST" name="tearDown" finished-at="2025-04-02T19:39:52 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- testValidLogin -->
+    <test started-at="2025-04-02T19:39:58 IST" name="FindTransactionsTest" finished-at="2025-04-02T19:40:04 IST" duration-ms="6199">
+      <class name="testcases.FindTransactionsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FindTransactionsTest@1c39680d]" started-at="2025-04-02T19:39:58 IST" name="setUp" finished-at="2025-04-02T19:40:01 IST" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindTransactionsNavigation()[pri:0, instance:testcases.FindTransactionsTest@1c39680d]" started-at="2025-04-02T19:40:01 IST" name="testFindTransactionsNavigation" finished-at="2025-04-02T19:40:04 IST" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindTransactionsNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindTransactionsTest@1c39680d]" started-at="2025-04-02T19:40:04 IST" name="tearDown" finished-at="2025-04-02T19:40:04 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FindTransactionsTest -->
+    </test> <!-- FindTransactionsTest -->
+  </suite> <!-- ParabankAutomation -->
+</testng-results>
