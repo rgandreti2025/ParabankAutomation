@@ -1,14 +1,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="ParabankAutomation">
-    <test name="testValidLogin">
-        <classes>
-            <class name="testcases.LoginTest"/>
-            <class name="testcases.LogoutTest"/>
-        </classes>
-    </test>
-    <test name="FindTransactionsTest">
-        <classes>
-            <class name="testcases.FindTransactionsTest"/>
-        </classes>
-    </test>
+	<test name="LoginTest">
+		<classes>
+			<class name="testcases.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="LogoutTest">
+		<classes>
+			<class name="testcases.LogoutTest" />
+		</classes>
+	</test>
+	<test name="FindTransactionsTest">
+		<classes>
+			<class name="testcases.FindTransactionsTest" />
+		</classes>
+	</test>
 </suite>

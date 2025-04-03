@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ParabankAutomation" class="navigator-link">
-              <span class="suite-name border-passed">ParabankAutomation</span>
+              <span class="suite-name border-failed">ParabankAutomation</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-ParabankAutomation" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParabankAutomation" class="hide-methods failed suite-ParabankAutomation"> (hide)</a> <!-- hide-methods failed suite-ParabankAutomation -->
+                      <a href="#" panel-name="suite-ParabankAutomation" class="show-methods failed suite-ParabankAutomation"> (show)</a> <!-- show-methods failed suite-ParabankAutomation -->
+                    </span>
+                    <div class="method-list-content failed suite-ParabankAutomation">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParabankAutomation" title="testcases.FindTransactionsTest" class="method navigator-link" hash-for-method="Check_Transaction_ID">Check_Transaction_ID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParabankAutomation" title="testcases.FindTransactionsTest" class="method navigator-link" hash-for-method="testFindTransactionsNavigation">testFindTransactionsNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParabankAutomation" title="testcases.FindTransactionsTest" class="method navigator-link" hash-for-method="verifyAccountExistsAndSelectIt">verifyAccountExistsAndSelectIt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParabankAutomation -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,11 +125,6 @@
                       <a href="#" panel-name="suite-ParabankAutomation" class="show-methods passed suite-ParabankAutomation"> (show)</a> <!-- show-methods passed suite-ParabankAutomation -->
                     </span>
                     <div class="method-list-content passed suite-ParabankAutomation">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParabankAutomation" title="testcases.FindTransactionsTest" class="method navigator-link" hash-for-method="testFindTransactionsNavigation">testFindTransactionsNavigation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParabankAutomation" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
@@ -133,6 +152,74 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ParabankAutomation" class="panel ParabankAutomation">
+          <div class="suite-ParabankAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.FindTransactionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Transaction_ID">
+                  </a> <!-- Check_Transaction_ID -->
+                  <span class="method-name">Check_Transaction_ID</span>
+                  <div class="stack-trace">java.lang.AssertionError: Transaction Not Found! expected [true] but found [false]
+	at testcases.FindTransactionsTest.Check_Transaction_ID(FindTransactionsTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindTransactionsNavigation">
+                  </a> <!-- testFindTransactionsNavigation -->
+                  <span class="method-name">testFindTransactionsNavigation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce92d80d0162e2fc7f346bd8f3946740, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51642/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce92d80d0162e2fc7f346bd8f3946740
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at pages.LoginPage.enterUsername(LoginPage.java:30)
+	at pages.LoginPage.login(LoginPage.java:42)
+	at testcases.FindTransactionsTest.testFindTransactionsNavigation(FindTransactionsTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountExistsAndSelectIt">
+                  </a> <!-- verifyAccountExistsAndSelectIt -->
+                  <span class="method-name">verifyAccountExistsAndSelectIt</span>
+                  <div class="stack-trace">java.lang.AssertionError: Account ID 13566 is not found in the dropdown! expected [true] but found [false]
+	at testcases.FindTransactionsTest.verifyAccountExistsAndSelectIt(FindTransactionsTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParabankAutomation-class-failed -->
           <div class="suite-ParabankAutomation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -144,21 +231,6 @@
                   <a name="testLogout">
                   </a> <!-- testLogout -->
                   <span class="method-name">testLogout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParabankAutomation-class-passed -->
-          <div class="suite-ParabankAutomation-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.FindTransactionsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFindTransactionsNavigation">
-                  </a> <!-- testFindTransactionsNavigation -->
-                  <span class="method-name">testFindTransactionsNavigation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,12 +267,16 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;ParabankAutomation&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;testValidLogin&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LogoutTest&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;testcases.LogoutTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- testValidLogin --&gt;
+  &lt;/test&gt; &lt;!-- LogoutTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;FindTransactionsTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.FindTransactionsTest&quot;/&gt;
@@ -217,7 +293,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">testValidLogin (2 classes)</span>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogoutTest (1 class)</span>
               </li>
               <li>
                 <span class="test-name">FindTransactionsTest (1 class)</span>
@@ -246,28 +325,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testFindTransactionsNavigation')
+data.setCell(0, 1, 'Check_Transaction_ID')
 data.setCell(0, 2, 'testcases.FindTransactionsTest')
-data.setCell(0, 3, 2709);
+data.setCell(0, 3, 3450);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogout')
 data.setCell(1, 2, 'testcases.LogoutTest')
-data.setCell(1, 3, 2330);
+data.setCell(1, 3, 2846);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testInvalidLogin')
 data.setCell(2, 2, 'testcases.LoginTest')
-data.setCell(2, 3, 1569);
+data.setCell(2, 3, 1370);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testValidLogin')
 data.setCell(3, 2, 'testcases.LoginTest')
-data.setCell(3, 3, 1442);
+data.setCell(3, 3, 1130);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAccountExistsAndSelectIt')
+data.setCell(4, 2, 'testcases.FindTransactionsTest')
+data.setCell(4, 3, 269);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testFindTransactionsNavigation')
+data.setCell(5, 2, 'testcases.FindTransactionsTest')
+data.setCell(5, 3, 15);
 window.suiteTableData['ParabankAutomation']= { tableData: data, tableDiv: 'times-div-ParabankAutomation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-ParabankAutomation">
               </div> <!-- times-div-ParabankAutomation -->
             </div> <!-- times-div -->
@@ -300,45 +387,59 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testInvalidLogin</span>
-                <span class="method-start">4554 ms</span>
+                <span class="method-start">6301 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testValidLogin</span>
-                <span class="method-start">6128 ms</span>
+                <span class="method-start">7675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7574 ms</span>
+                <span class="method-start">8805 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.LogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">7848 ms</span>
+                <span class="method-start">9130 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogout</span>
-                <span class="method-start">11319 ms</span>
+                <span class="method-start">12437 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13651 ms</span>
+                <span class="method-start">15286 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.FindTransactionsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13953 ms</span>
+                <span class="method-start">15508 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Transaction_ID</span>
+                <span class="method-start">18726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testFindTransactionsNavigation</span>
-                <span class="method-start">17209 ms</span>
+                <span class="method-start">22182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAccountExistsAndSelectIt</span>
+                <span class="method-start">22200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19920 ms</span>
+                <span class="method-start">22472 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

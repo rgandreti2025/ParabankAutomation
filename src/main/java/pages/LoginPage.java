@@ -17,7 +17,7 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@value='Log In']")
 	private WebElement loginButton;
 
-	// ✅ Corrected locator for error message
+	// Corrected locator for error message
 	@FindBy(className = "error") // Update this based on your actual HTML
 	private WebElement loginErrorMessage;
 

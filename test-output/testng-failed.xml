@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ParabankAutomation]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="testValidLogin(failed)">
+  <test thread-count="5" name="FindTransactionsTest(failed)">
     <classes>
-      <class name="testcases.LoginTest">
+      <class name="testcases.FindTransactionsTest">
         <methods>
+          <include name="Check_Transaction_ID"/>
           <include name="setUp"/>
+          <include name="testFindTransactionsNavigation"/>
+          <include name="verifyAccountExistsAndSelectIt"/>
           <include name="tearDown"/>
-          <include name="testValidLogin"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.FindTransactionsTest -->
     </classes>
-  </test> <!-- testValidLogin(failed) -->
+  </test> <!-- FindTransactionsTest(failed) -->
 </suite> <!-- Failed suite [ParabankAutomation] -->

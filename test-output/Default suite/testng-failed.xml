@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.WebDriverTest">
+      <class name="testcases.FindTransactionsTest">
         <methods>
-          <include name="testDriverLaunch"/>
+          <include name="Check_Transaction_ID"/>
+          <include name="testFindTransactionsNavigation"/>
+          <include name="setUp"/>
+          <include name="verifyAccountExistsAndSelectIt"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.WebDriverTest -->
+      </class> <!-- testcases.FindTransactionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
