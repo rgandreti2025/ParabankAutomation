@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T21:56:48 IST" name="ParabankAutomation" finished-at="2025-04-03T21:57:11 IST" duration-ms="22783">
+  <suite started-at="2025-04-15T14:12:27 IST" name="ParabankAutomation" finished-at="2025-04-15T14:12:51 IST" duration-ms="23189">
     <groups>
     </groups>
-    <test started-at="2025-04-03T21:56:48 IST" name="LoginTest" finished-at="2025-04-03T21:56:57 IST" duration-ms="9129">
+    <test started-at="2025-04-15T14:12:27 IST" name="LoginTest" finished-at="2025-04-15T14:12:39 IST" duration-ms="11234">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-03T21:56:48 IST" name="setUp" finished-at="2025-04-03T21:56:54 IST" duration-ms="6274" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-15T14:12:27 IST" name="setUp" finished-at="2025-04-15T14:12:36 IST" duration-ms="8218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-03T21:56:54 IST" name="testInvalidLogin" finished-at="2025-04-03T21:56:56 IST" duration-ms="1370" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-15T14:12:36 IST" name="testInvalidLogin" finished-at="2025-04-15T14:12:37 IST" duration-ms="1529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testValidLogin()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-03T21:56:56 IST" name="testValidLogin" finished-at="2025-04-03T21:56:57 IST" duration-ms="1130" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-15T14:12:37 IST" name="testValidLogin" finished-at="2025-04-15T14:12:38 IST" duration-ms="1130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-03T21:56:57 IST" name="tearDown" finished-at="2025-04-03T21:56:57 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@cd1e646]" started-at="2025-04-15T14:12:38 IST" name="tearDown" finished-at="2025-04-15T14:12:39 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2025-04-03T21:56:57 IST" name="LogoutTest" finished-at="2025-04-03T21:57:04 IST" duration-ms="6373">
+    <test started-at="2025-04-15T14:12:39 IST" name="LogoutTest" finished-at="2025-04-15T14:12:44 IST" duration-ms="5816">
       <class name="testcases.LogoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-03T21:56:57 IST" name="setUp" finished-at="2025-04-03T21:57:01 IST" duration-ms="3305" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-15T14:12:39 IST" name="setUp" finished-at="2025-04-15T14:12:42 IST" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogout()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-03T21:57:01 IST" name="testLogout" finished-at="2025-04-03T21:57:03 IST" duration-ms="2846" status="PASS">
+        <test-method signature="testLogout()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-15T14:12:42 IST" name="testLogout" finished-at="2025-04-15T14:12:44 IST" duration-ms="2445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-03T21:57:03 IST" name="tearDown" finished-at="2025-04-03T21:57:04 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@2fba3fc4]" started-at="2025-04-15T14:12:44 IST" name="tearDown" finished-at="2025-04-15T14:12:44 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.LogoutTest -->
     </test> <!-- LogoutTest -->
-    <test started-at="2025-04-03T21:57:04 IST" name="FindTransactionsTest" finished-at="2025-04-03T21:57:11 IST" duration-ms="7237">
+    <test started-at="2025-04-15T14:12:44 IST" name="FindTransactionsTest" finished-at="2025-04-15T14:12:51 IST" duration-ms="6085">
       <class name="testcases.FindTransactionsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-03T21:57:04 IST" name="setUp" finished-at="2025-04-03T21:57:07 IST" duration-ms="3217" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-15T14:12:44 IST" name="setUp" finished-at="2025-04-15T14:12:48 IST" duration-ms="3201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Check_Transaction_ID()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-03T21:57:07 IST" name="Check_Transaction_ID" finished-at="2025-04-03T21:57:10 IST" duration-ms="3450" status="FAIL">
+        <test-method signature="Check_Transaction_ID()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-15T14:12:48 IST" name="Check_Transaction_ID" finished-at="2025-04-15T14:12:50 IST" duration-ms="2532" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Transaction Not Found! expected [true] but found [false]]]>
@@ -92,29 +92,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Transaction_ID -->
-        <test-method signature="testFindTransactionsNavigation()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-03T21:57:10 IST" name="testFindTransactionsNavigation" finished-at="2025-04-03T21:57:10 IST" duration-ms="15" status="FAIL">
+        <test-method signature="testFindTransactionsNavigation()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-15T14:12:50 IST" name="testFindTransactionsNavigation" finished-at="2025-04-15T14:12:50 IST" duration-ms="18" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=134.0.6998.178)
+  (Session info: chrome=135.0.7049.85)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce92d80d0162e2fc7f346bd8f3946740, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51642/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce92d80d0162e2fc7f346bd8f3946740]]>
+Command: [682300e3b3c691c391e44fc3b27bf1a1, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57033/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 682300e3b3c691c391e44fc3b27bf1a1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=134.0.6998.178)
+  (Session info: chrome=135.0.7049.85)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce92d80d0162e2fc7f346bd8f3946740, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51642/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce92d80d0162e2fc7f346bd8f3946740
+Command: [682300e3b3c691c391e44fc3b27bf1a1, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57033/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 682300e3b3c691c391e44fc3b27bf1a1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,7 +133,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
 at pages.LoginPage.enterUsername(LoginPage.java:30)
 at pages.LoginPage.login(LoginPage.java:42)
 at testcases.FindTransactionsTest.testFindTransactionsNavigation(FindTransactionsTest.java:22)
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindTransactionsNavigation -->
-        <test-method signature="verifyAccountExistsAndSelectIt()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-03T21:57:10 IST" name="verifyAccountExistsAndSelectIt" finished-at="2025-04-03T21:57:11 IST" duration-ms="269" status="FAIL">
+        <test-method signature="verifyAccountExistsAndSelectIt()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-15T14:12:50 IST" name="verifyAccountExistsAndSelectIt" finished-at="2025-04-15T14:12:50 IST" duration-ms="67" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Account ID 13566 is not found in the dropdown! expected [true] but found [false]]]>
@@ -216,7 +216,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountExistsAndSelectIt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-03T21:57:11 IST" name="tearDown" finished-at="2025-04-03T21:57:11 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindTransactionsTest@a37aefe]" started-at="2025-04-15T14:12:50 IST" name="tearDown" finished-at="2025-04-15T14:12:51 IST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

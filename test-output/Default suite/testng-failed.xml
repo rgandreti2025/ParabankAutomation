@@ -5,10 +5,8 @@
     <classes>
       <class name="testcases.FindTransactionsTest">
         <methods>
-          <include name="Check_Transaction_ID"/>
-          <include name="testFindTransactionsNavigation"/>
           <include name="setUp"/>
-          <include name="verifyAccountExistsAndSelectIt"/>
+          <include name="testFindTransactionsNavigation"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.FindTransactionsTest -->
